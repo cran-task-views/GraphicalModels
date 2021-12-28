@@ -246,7 +246,6 @@ models etc.**
 -   [JAGS](http://mcmc-jags.sourceforge.net/)
 -   [OpenBUGS](http://www.openbugs.info/w/)
 -   [WinBUGS](http://www.mrc-bsu.cam.ac.uk/software/bugs/)
--   [MIM](http://www.hypergraph.dk/)
 -   [Bayes Net Toolbox for MATLAB](https://code.google.com/p/bnt/)
 -   [TETRAD](http://www.phil.cmu.edu/projects/tetrad/)
 -   [Grappa](http://www.stats.bris.ac.uk/~peter/Grappa/)
