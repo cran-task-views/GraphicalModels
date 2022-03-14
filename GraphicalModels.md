@@ -7,16 +7,21 @@ version: 2021-12-27
 source: https://github.com/cran-task-views/GraphicalModels/
 ---
 
-[Wikipedia](http://en.wikipedia.org/wiki/Graphical_model) defines a
-graphical model as follows: *A graphical model is a probabilistic model
-for which a graph denotes the conditional independence structure between
-random variables. They are commonly used in probability theory,
-statistics - particularly Bayesian statistics and machine learning.*
+[Wikipedia](http://en.wikipedia.org/wiki/Graphical_model) says: 
+
+*A graphical model or probabilistic graphical model (PGM) or
+structured probabilistic model is a probabilistic model for which a
+graph expresses the conditional dependence structure between random
+variables. They are commonly used in probability theory, statistics —
+particularly Bayesian statistics — and machine learning.*
+
 
 A supplementary view is that graphical models are based on exploiting
 conditional independencies for constructing complex stochastic models
 with a modular structure. That is, a complex stochastic model is built
-up by simpler building blocks. This task view is a collection of
+up by simpler building blocks. 
+
+This task view is a collection of
 packages intended to supply R code to deal with graphical models.
 
 The packages can be roughly structured into the following topics
@@ -28,8 +33,9 @@ categories):
 -   `r pkg("diagram")` Visualises simple graphs (networks)
     based on a transition matrix, utilities to plot flow diagrams,
     visualising webs, electrical networks, \...
--   `r pkg("DiagrammeR")` Create Graph Diagrams and
-    Flowcharts Using R
+-   `r pkg("DiagrammeR")` Build graph/network structures using
+	functions for stepwise addition and deletion of nodes and edges.
+
 -   `r bioc("graph")` A package that implements some simple
     graph handling capabilities.
 -   `r pkg("gRbase", priority = "core")` The gRbase package
@@ -39,8 +45,12 @@ categories):
     table operations, 4) functions for testing for conditional
     independence. gRbase also illustrates how hierarchical log-linear
     models (hllm) may be implemented.
--   `r pkg("igraph")` Routines for simple graphs, network
-    analysis.
+
+-   `r pkg("igraph")` Routines for simple graphs and network
+    analysis. It can handle large graphs very well and provides
+    functions for generating random and regular graphs, graph
+    visualization, centrality methods and much more.
+	
 -   `r pkg("network")` Tools to create and modify network
     objects. The network class can represent a range of relational data
     types, and supports arbitrary vertex/edge/graph attributes.
@@ -75,8 +85,7 @@ categories):
     Graphical Models and mixed VAR(p) models via elastic-net regularized
     neighborhood regression.
 
-**Miscellaneous: Model search, structure learning, specialized types of
-models etc.**
+### Miscellaneous: Model search, structure learning, specialized types of models etc.
 
 -   `r pkg("BDgraph")` Bayesian Graph Selection Based on
     Birth-Death MCMC Approach. Bayesian inference for structure learning
