@@ -30,15 +30,15 @@ categories):
 
 ### Representation, manipulation and display of graphs
 
--   `r pkg("diagram")` Visualises simple graphs (networks)
+-   `r pkg("diagram")`: Visualises simple graphs (networks)
     based on a transition matrix, utilities to plot flow diagrams,
     visualising webs, electrical networks, \...
--   `r pkg("DiagrammeR")` Build graph/network structures using
+-   `r pkg("DiagrammeR")`: Build graph/network structures using
 	functions for stepwise addition and deletion of nodes and edges.
 
--   `r bioc("graph")` A package that implements some simple
+-   `r bioc("graph")`: A package that implements some simple
     graph handling capabilities.
--   `r pkg("gRbase", priority = "core")` The gRbase package
+-   `r pkg("gRbase", priority = "core")`: The gRbase package
     provides certain general constructs which are used by other
     graphical modelling packages. This includes 1) the concept of gmData
     (graphical meta data), 2) several graph algorithms 3) facilities for
@@ -46,29 +46,29 @@ categories):
     independence. gRbase also illustrates how hierarchical log-linear
     models (hllm) may be implemented.
 
--   `r pkg("igraph")` Routines for simple graphs and network
+-   `r pkg("igraph")`: Routines for simple graphs and network
     analysis. It can handle large graphs very well and provides
     functions for generating random and regular graphs, graph
     visualization, centrality methods and much more.
 	
--   `r pkg("network")` Tools to create and modify network
+-   `r pkg("network")`: Tools to create and modify network
     objects. The network class can represent a range of relational data
     types, and supports arbitrary vertex/edge/graph attributes.
--   `r pkg("qgraph")` Weighted network visualization and
+-   `r pkg("qgraph")`: Weighted network visualization and
     analysis, as well as Gaussian graphical model computation. See
     Epskamp et al. (2012)
     [doi:10.18637/jss.v048.i04](https://dx.doi.org/doi:10.18637/jss.v048.i04)
--   `r bioc("Rgraphviz")` Provides plotting capabilities for
+-   `r bioc("Rgraphviz")`: Provides plotting capabilities for
     R graph objects.
--   `r bioc("RBGL")` A fairly extensive and comprehensive
+-   `r bioc("RBGL")`: A fairly extensive and comprehensive
     interface to the graph algorithms contained in the BOOST library.
     (based on graph objects from the `r bioc("graph")`
     package).
 
 ### Classical models - General purpose packages
 
--   `r pkg("ggm")` Fitting graphical Gaussian models.
--   `r pkg("gRbase")` The gRbase package provides certain
+-   `r pkg("ggm")`: Fitting graphical Gaussian models.
+-   `r pkg("gRbase")`: The gRbase package provides certain
     general constructs which are used by other graphical modelling
     packages (in particular by `r pkg("gRain")`). This
     includes 1) the concept of gmData (graphical meta data), 2) several
@@ -76,23 +76,23 @@ categories):
     for testing for conditional independence. gRbase also illustrates
     how hierarchical log-linear models (hllm) may be implemented. Link:
     [doi:10.18637/jss.v014.i17](https://dx.doi.org/doi:10.18637/jss.v014.i17)
--   `r pkg("sna")` A range of tools for social network
+-   `r pkg("sna")`: A range of tools for social network
     analysis, including node and graph-level indices, structural
     distance and covariance methods, structural equivalence detection,
     network regression, random graph generation, and 2D/3D network
     visualization.
--   `r pkg("mgm")` Estimation of k-Order time-varying Mixed
+-   `r pkg("mgm")`: Estimation of k-Order time-varying Mixed
     Graphical Models and mixed VAR(p) models via elastic-net regularized
     neighborhood regression.
 
 ### Miscellaneous: Model search, structure learning, specialized types of models etc.
 
--   `r pkg("BDgraph")` Bayesian Graph Selection Based on
+-   `r pkg("BDgraph")`: Bayesian Graph Selection Based on
     Birth-Death MCMC Approach. Bayesian inference for structure learning
     in undirected graphical models. The main target is to uncover
     complicated patterns in multivariate data wherein either continuous
     or discrete variables.
--   `r pkg("bnclassify")` Learning Discrete Bayesian Network
+-   `r pkg("bnclassify")`: Learning Discrete Bayesian Network
     Classifiers from Data. State-of-the art algorithms for learning
     discrete Bayesian network classifiers from data, including a number
     of those described in Bielza and Larranaga (2014) with functions for
@@ -105,7 +105,7 @@ categories):
     sized-data sets (e.g. the splice data set, with 61 variables and
     3190 instances in \~100 seconds on my machine). There is a number of
     utility functionalities, such as cross-validation.
--   `r pkg("bnstruct")` Bayesian Network Structure Learning
+-   `r pkg("bnstruct")`: Bayesian Network Structure Learning
     from Data with Missing Values. Bayesian Network Structure Learning
     from Data with Missing Values. The package implements the
     Silander-Myllymaki complete search, the Max-Min
@@ -114,30 +114,30 @@ categories):
     algorithm. Available scoring functions are BDeu, AIC, BIC. The
     package also implements methods for generating and using bootstrap
     samples, imputed data, inference.
--   `r pkg("FBFsearch")` Algorithm for searching the space
+-   `r pkg("FBFsearch")`: Algorithm for searching the space
     of Gaussian directed acyclic graphical models through moment
     fractional Bayes factors
--   `r pkg("GeneNet")` Modeling and Inferring Gene Networks.
+-   `r pkg("GeneNet")`: Modeling and Inferring Gene Networks.
     GeneNet is a package for analyzing gene expression (time series)
     data with focus on the inference of gene networks.
--   `r pkg("huge")` High-dimensional Undirected Graph
+-   `r pkg("huge")`: High-dimensional Undirected Graph
     Estimation.
--   `r pkg("lvnet")` lvnet: Latent Variable Network
+-   `r pkg("lvnet")`: Latent Variable Network
     Modeling. Estimate, fit and compare Structural Equation Models (SEM)
     and network models (Gaussian Graphical Models; GGM) using OpenMx.
     Allows for two possible generalizations to include GGMs in SEM: GGMs
     can be used between latent variables (latent network modeling; LNM)
     or between residuals (residual network modeling; RNM).
--   `r pkg("networkDynamic")` Dynamic Extensions for Network
+-   `r pkg("networkDynamic")`: Dynamic Extensions for Network
     Objects. Simple interface routines to facilitate the handling of
     network objects with complex intertemporal data. "networkDynamic"
     is a part of the "statnet" suite of packages for network analysis.
--   `r pkg("pcalg")` Standard and robust estimation of the
+-   `r pkg("pcalg")`: Standard and robust estimation of the
     skeleton (ugraph) and the equivalence class of a Directed Acyclic
     Graph (DAG) via the PC-Algorithm. The equivalence class is
     represented by its (unique) Completed Partially Directed Acyclic
     Graph (CPDAG).
--   `r rforge("qp")` This package is deprecated and it is
+-   `r rforge("qp")`: This package is deprecated and it is
     now only a stub for the newer version called qpgraph available
     through the Bioconductor project. The q-order partial correlation
     graph search algorithm, q-partial, or qp, algorithm for short, is a
@@ -146,7 +146,7 @@ categories):
     multivariate normal data coming from a number of random variables p
     larger than the number of multidimensional data points n as in the
     case of, e.g., microarray data.
--   `r bioc("qpgraph")` q-order partial correlation graphs,
+-   `r bioc("qpgraph")`: q-order partial correlation graphs,
     or qp-graphs for short, are undirected Gaussian graphical Markov
     models that represent q-order partial correlations. They are useful
     for learning undirected graphical Gaussian Markov models from data
@@ -154,12 +154,12 @@ categories):
     sample size n as, for instance, in the case of microarray data where
     they can be employed to reverse engineer a molecular regulatory
     network.
--   `r pkg("SIN")` This package provides routines to perform
+-   `r pkg("SIN")`: This package provides routines to perform
     SIN model selection as described in Drton and Perlman (2004). The
     selected models are represented in the format of the 'ggm'
     package, which allows in particular parameter estimation in the
     selected model.
--   `r pkg("spectralGraphTopology")` The package provides
+-   `r pkg("spectralGraphTopology")`: The package provides
     estimators to learn k-component, bipartite, and k-component
     bipartite graphs from data by imposing spectral constraints on the
     eigenvalues and eigenvectors of the Laplacian and adjacency
@@ -170,7 +170,7 @@ categories):
 
 ### Bayesian Networks/Probabilistic expert systems
 
--   `r pkg("bnlearn")` Bayesian network structure learning
+-   `r pkg("bnlearn")`: Bayesian network structure learning
     via constraint-based (also known as 'conditional independence')
     and score-based algorithms. This package implements the Grow-Shrink
     (GS) algorithm, the Incremental Association (IAMB) algorithm, the
@@ -181,12 +181,12 @@ categories):
     independence tests. Some utility functions (model comparison and
     manipulation, random data generation, arc orientation testing) are
     also included.
--   `r pkg("gRain")` A package for probability propagation
+-   `r pkg("gRain")`: A package for probability propagation
     in graphical independence networks, also known as probabilistic
     expert systems (which includes Bayesian networks as a special case).
     Link:
     [doi:10.18637/jss.v046.i10](https://dx.doi.org/doi:10.18637/jss.v046.i10)
--   `r rforge("RHugin")` The Hugin Decision Engine (HDE) is
+-   `r rforge("RHugin")`: The Hugin Decision Engine (HDE) is
     commercial software produced by HUGIN EXPERT A/S for building and
     making inference from Bayesian belief networks. The RHugin package
     provides a suite of functions allowing the HDE to be controlled from
@@ -200,7 +200,7 @@ categories):
     the package is Hugin users who would like to take advantage of the
     statistical and programmatic capabilities of R. Notice: RHugin is
     NOT on CRAN. Link: <http://rhugin.r-forge.r-project.org/>
--   `r pkg("sparsebn")` Fast methods for learning sparse
+-   `r pkg("sparsebn")`: Fast methods for learning sparse
     Bayesian networks from high-dimensional data using coordinate
     descent and sparse regularization. Designed to handle mixed
     experimental and observational data with thousands of variables with
@@ -208,44 +208,44 @@ categories):
 
 ### BUGS models
 
--   `r pkg("bayesmix")` Bayesian mixture models of
+-   `r pkg("bayesmix")`: Bayesian mixture models of
     univariate Gaussian distributions using JAGS.
--   `r pkg("dclone")` Data Cloning and MCMC Tools for
+-   `r pkg("dclone")`: Data Cloning and MCMC Tools for
     Maximum Likelihood Methods. Low level functions for implementing
     maximum likelihood estimating procedures for complex models using
     data cloning and Bayesian Markov chain Monte Carlo methods with
     support for JAGS, WinBUGS and OpenBUGS. Parallel MCMC computation is
     supported and can result in considerable speed-up.
--   `r pkg("boa")` boa: Bayesian Output Analysis Program
+-   `r pkg("boa")`: Bayesian Output Analysis Program
     (BOA) for MCMC. A menu-driven program and library of functions for
     carrying out convergence diagnostics and statistical and graphical
     analysis of Markov chain Monte Carlo sampling output.
--   `r pkg("BRugs")` BRugs: R interface to the OpenBUGS MCMC
+-   `r pkg("BRugs")`: R interface to the OpenBUGS MCMC
     software. Fully-interactive R interface to the OpenBUGS software for
     Bayesian analysis using MCMC sampling. Runs natively and stably in
     32-bit R under Windows. Versions running on Linux and on 64-bit R
     under Windows are in "beta" status and less efficient.
--   `r pkg("coda")` coda: Output analysis and diagnostics
+-   `r pkg("coda")`: Output analysis and diagnostics
     for MCMC. Output analysis and diagnostics for Markov Chain Monte
     Carlo simulations.
--   `r pkg("ergm")` ergm: Fit, Simulate and Diagnose
+-   `r pkg("ergm")`: Fit, Simulate and Diagnose
     Exponential-Family Models for Networks. An integrated set of tools
     to analyze and simulate networks based on exponential-family random
     graph models (ERGM). "ergm" is a part of the
     [statnet](http://statnet.org/) suite of packages for network
     analysis.
--   `r pkg("R2OpenBUGS")` R2OpenBUGS: Running OpenBUGS from
+-   `r pkg("R2OpenBUGS")`: Running OpenBUGS from
     R. Using this package, it is possible to call a BUGS model,
     summarize inferences and convergence in a table and graph, and save
     the simulations in arrays for easy access in R.
--   `r pkg("R2WinBUGS")` Running WinBUGS and OpenBUGS from R
+-   `r pkg("R2WinBUGS")`: Running WinBUGS and OpenBUGS from R
     / S-PLUS. Using this package, it is possible to call a BUGS model,
     summarize inferences and convergence in a table and graph, and save
     the simulations in arrays for easy access in R / S-PLUS. In S-PLUS,
     the openbugs functionality and the windows emulation functionality
     is not yet available.
--   `r pkg("rjags")` rjags: Bayesian graphical models using
-    MCMC. Interface to the JAGS MCMC library.
+-   `r pkg("rjags")`: Bayesian graphical models using MCMC. Interface to
+    the JAGS MCMC library.
 
 
 
