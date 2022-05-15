@@ -30,6 +30,12 @@ categories):
 
 ### Representation, manipulation and display of graphs
 
+-   `r pkg("backbone")`: An implementation of methods for extracting
+    an unweighted unipartite graph (i.e. a backbone) from an
+    unweighted unipartite graph, a weighted unipartite graph, the
+    projection of an unweighted bipartite graph, or the projection of
+    a weighted bipartite graph.
+
 -   `r pkg("diagram")`: Visualises simple graphs (networks)
     based on a transition matrix, utilities to plot flow diagrams,
     visualising webs, electrical networks, \...
@@ -54,12 +60,15 @@ categories):
 -   `r pkg("network")`: Tools to create and modify network
     objects. The network class can represent a range of relational data
     types, and supports arbitrary vertex/edge/graph attributes.
+
 -   `r pkg("qgraph")`: Weighted network visualization and
     analysis, as well as Gaussian graphical model computation. See
     Epskamp et al. (2012)
     [doi:10.18637/jss.v048.i04](https://dx.doi.org/doi:10.18637/jss.v048.i04)
+
 -   `r bioc("Rgraphviz")`: Provides plotting capabilities for
     R graph objects.
+
 -   `r bioc("RBGL")`: A fairly extensive and comprehensive
     interface to the graph algorithms contained in the BOOST library.
     (based on graph objects from the `r bioc("graph")`
