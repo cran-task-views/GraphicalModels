@@ -24,6 +24,11 @@ up by simpler building blocks.
 This task view is a collection of
 packages intended to supply R code to deal with graphical models.
 
+Notice that Structural Equation Models (SEM) packages are in a sense
+also graphical models. However, SEM packages are not presented here
+but are they have their own section in the `r view("Psychometrics")`
+task view.
+
 The packages can be roughly structured into the following topics
 (although several of them have functionalities which go across these
 categories):
