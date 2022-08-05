@@ -40,13 +40,11 @@ categories):
     unweighted unipartite graph, a weighted unipartite graph, the
     projection of an unweighted bipartite graph, or the projection of
     a weighted bipartite graph.
-
 -   `r pkg("diagram")`: Visualises simple graphs (networks)
     based on a transition matrix, utilities to plot flow diagrams,
     visualising webs, electrical networks, \...
 -   `r pkg("DiagrammeR")`: Build graph/network structures using
 	functions for stepwise addition and deletion of nodes and edges.
-
 -   `r bioc("graph")`: A package that implements some simple
     graph handling capabilities.
 -   `r pkg("gRbase", priority = "core")`: The gRbase package
@@ -56,24 +54,19 @@ categories):
     table operations, 4) functions for testing for conditional
     independence. gRbase also illustrates how hierarchical log-linear
     models (hllm) may be implemented.
-
 -   `r pkg("igraph")`: Routines for simple graphs and network
     analysis. It can handle large graphs very well and provides
     functions for generating random and regular graphs, graph
     visualization, centrality methods and much more.
-	
 -   `r pkg("network")`: Tools to create and modify network
     objects. The network class can represent a range of relational data
     types, and supports arbitrary vertex/edge/graph attributes.
-
 -   `r pkg("qgraph")`: Weighted network visualization and
     analysis, as well as Gaussian graphical model computation. See
     Epskamp et al. (2012)
     [doi:10.18637/jss.v048.i04](https://dx.doi.org/doi:10.18637/jss.v048.i04)
-
 -   `r bioc("Rgraphviz")`: Provides plotting capabilities for
     R graph objects.
-
 -   `r bioc("RBGL")`: A fairly extensive and comprehensive
     interface to the graph algorithms contained in the BOOST library.
     (based on graph objects from the `r bioc("graph")`
@@ -101,6 +94,17 @@ categories):
 
 ### Miscellaneous: Model search, structure learning, specialized types of models etc.
 
+-   `r pkg("abn")`: Modelling Multivariate Data with Additive Bayesian
+	Networks.  An additive Bayesian network model consists of a form
+	of a DAG where each node comprises a generalized linear model,
+	GLM. Additive Bayesian network models are equivalent to Bayesian
+	multivariate regression using graphical modelling, they
+	generalises the usual multivariable regression, GLM, to multiple
+	dependent variables. 'abn' provides routines to help determine
+	optimal Bayesian network models for a given data set, where these
+	models are used to identify statistical dependencies in messy,
+	complex data.
+	
 -   `r pkg("BDgraph")`: Bayesian Graph Selection Based on
     Birth-Death MCMC Approach. Bayesian inference for structure learning
     in undirected graphical models. The main target is to uncover
@@ -128,12 +132,36 @@ categories):
     algorithm. Available scoring functions are BDeu, AIC, BIC. The
     package also implements methods for generating and using bootstrap
     samples, imputed data, inference.
+
+-   `r pkg("catnet")`: Categorical Bayesian Network Inference
+	Structure learning and parameter estimation of discrete Bayesian
+	networks using likelihood-based criteria. Exhaustive search for fixed
+	node orders and stochastic search of optimal orders via simulated
+	annealing algorithm are implemented.
+
+-   `r pkg("deal")`: Learning Bayesian Networks with Mixed Variables
+	Bayesian networks with continuous and/or discrete variables can be
+	learned and compared from data.
+
 -   `r pkg("FBFsearch")`: Algorithm for searching the space
     of Gaussian directed acyclic graphical models through moment
     fractional Bayes factors
+
 -   `r pkg("GeneNet")`: Modeling and Inferring Gene Networks.
     GeneNet is a package for analyzing gene expression (time series)
     data with focus on the inference of gene networks.
+
+-   `r pkg("gRc")`: Inference in Graphical Gaussian Models with Edge
+	and Vertex Symmetries Estimation, model selection and other aspects of
+	statistical inference in Graphical Gaussian models with edge and
+	vertex symmetries (Graphical Gaussian models with colours).
+	
+-	`r pkg("gRim")`: Graphical Interaction Models.  Provides the
+    following types of models: Models for contingency tables
+	(i.e. log-linear models) Graphical Gaussian models for multivariate
+	normal data (i.e. covariance selection models) Mixed interaction
+	models.
+
 -   `r pkg("huge")`: High-dimensional Undirected Graph
     Estimation.
 -   `r pkg("lvnet")`: Latent Variable Network
@@ -142,10 +170,20 @@ categories):
     Allows for two possible generalizations to include GGMs in SEM: GGMs
     can be used between latent variables (latent network modeling; LNM)
     or between residuals (residual network modeling; RNM).
+
+-   `r pkg("MXM")`: Feature Selection (Including Multiple Solutions)
+    and Bayesian Networks.
+
 -   `r pkg("networkDynamic")`: Dynamic Extensions for Network
     Objects. Simple interface routines to facilitate the handling of
     network objects with complex intertemporal data. "networkDynamic"
     is a part of the "statnet" suite of packages for network analysis.
+
+-   `r pkg("ndtv")`: Network Dynamic Temporal Visualizations.  Renders
+	dynamic network data from 'networkDynamic' objects as movies,
+	interactive animations, or other representations of changing
+	relational structures and attributes.
+
 -   `r pkg("pcalg")`: Standard and robust estimation of the
     skeleton (ugraph) and the equivalence class of a Directed Acyclic
     Graph (DAG) via the PC-Algorithm. The equivalence class is
