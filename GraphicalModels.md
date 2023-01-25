@@ -133,11 +133,11 @@ categories):
     package also implements methods for generating and using bootstrap
     samples, imputed data, inference.
 
--   `r pkg("catnet")`: Categorical Bayesian Network Inference
-	Structure learning and parameter estimation of discrete Bayesian
-	networks using likelihood-based criteria. Exhaustive search for fixed
-	node orders and stochastic search of optimal orders via simulated
-	annealing algorithm are implemented.
+<!-- -   `r pkg("catnet")`: Categorical Bayesian Network Inference -->
+<!-- 	Structure learning and parameter estimation of discrete Bayesian -->
+<!-- 	networks using likelihood-based criteria. Exhaustive search for fixed -->
+<!-- 	node orders and stochastic search of optimal orders via simulated -->
+<!-- 	annealing algorithm are implemented. -->
 
 -   `r pkg("deal")`: Learning Bayesian Networks with Mixed Variables
 	Bayesian networks with continuous and/or discrete variables can be
