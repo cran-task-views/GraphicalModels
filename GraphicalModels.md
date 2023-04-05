@@ -245,11 +245,6 @@ categories):
     the package is Hugin users who would like to take advantage of the
     statistical and programmatic capabilities of R. Notice: RHugin is
     NOT on CRAN. Link: <http://rhugin.r-forge.r-project.org/>
-<!-- -   `r pkg("sparsebn")`: Fast methods for learning sparse -->
-    <!-- Bayesian networks from high-dimensional data using coordinate -->
-    <!-- descent and sparse regularization. Designed to handle mixed -->
-    <!-- experimental and observational data with thousands of variables with -->
-    <!-- either continuous or discrete observations. -->
 
 
 ### BUGS models
