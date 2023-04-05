@@ -199,11 +199,6 @@ categories):
     sample size n as, for instance, in the case of microarray data where
     they can be employed to reverse engineer a molecular regulatory
     network.
-<!-- -   `r pkg("SIN")`: This package provides routines to perform -->
-    <!-- SIN model selection as described in Drton and Perlman (2004). The -->
-    <!-- selected models are represented in the format of the 'ggm' -->
-    <!-- package, which allows in particular parameter estimation in the -->
-    <!-- selected model. -->
 -   `r pkg("spectralGraphTopology")`: The package provides
     estimators to learn k-component, bipartite, and k-component
     bipartite graphs from data by imposing spectral constraints on the
