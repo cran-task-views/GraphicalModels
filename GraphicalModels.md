@@ -3,7 +3,7 @@ name: GraphicalModels
 topic: Graphical Models
 maintainer: Soren Hojsgaard
 email: sorenh@math.aau.dk
-version: 2021-12-27
+version: 2023-04-05
 source: https://github.com/cran-task-views/GraphicalModels/
 ---
 
@@ -132,13 +132,6 @@ categories):
     algorithm. Available scoring functions are BDeu, AIC, BIC. The
     package also implements methods for generating and using bootstrap
     samples, imputed data, inference.
-
-<!-- -   `r pkg("catnet")`: Categorical Bayesian Network Inference -->
-<!-- 	Structure learning and parameter estimation of discrete Bayesian -->
-<!-- 	networks using likelihood-based criteria. Exhaustive search for fixed -->
-<!-- 	node orders and stochastic search of optimal orders via simulated -->
-<!-- 	annealing algorithm are implemented. -->
-
 -   `r pkg("deal")`: Learning Bayesian Networks with Mixed Variables
 	Bayesian networks with continuous and/or discrete variables can be
 	learned and compared from data.
