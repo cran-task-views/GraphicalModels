@@ -104,7 +104,16 @@ categories):
 	optimal Bayesian network models for a given data set, where these
 	models are used to identify statistical dependencies in messy,
 	complex data.
-	
+
+-   `r pkg("SEMID")`: Identifiability of Linear Structural Equation
+	Models.  Provides routines to check identifiability or
+	non-identifiability of linear structural equation models as
+	described in Drton, Foygel, and Sullivant (2011)
+	<doi:10.1214/10-AOS859>, Foygel, Draisma, and Drton (2012)
+	<doi:10.1214/12-AOS1012>, and other works. The routines are based
+	on the graphical representation of structural equation models.
+
+
 -   `r pkg("BDgraph")`: Bayesian Graph Selection Based on
     Birth-Death MCMC Approach. Bayesian inference for structure learning
     in undirected graphical models. The main target is to uncover
