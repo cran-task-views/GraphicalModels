@@ -216,6 +216,11 @@ categories):
     graphical models as a prior information, which turn out to play key
     roles in unsupervised machine learning tasks such as community
     detection.
+-   `r pkg("sparseSEM")`: The package provides lasso (l1) and 
+    elastic net (l1/l2) penalized Maximum Likelihood Estimator (MLE) for
+    Structural Equation Models (SEM). Those estimators yield sparse SEM 
+    that can be used for inferring network structures and predicting
+    causal effects.
 
 ### Bayesian Networks/Probabilistic expert systems
 
