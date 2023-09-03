@@ -230,6 +230,7 @@ categories):
     independence tests. Some utility functions (model comparison and
     manipulation, random data generation, arc orientation testing) are
     also included.
+	
 -   `r pkg("gRain")`: A package for probability propagation
     in graphical independence networks, also known as probabilistic
     expert systems (which includes Bayesian networks as a special case).
@@ -249,6 +250,13 @@ categories):
     the package is Hugin users who would like to take advantage of the
     statistical and programmatic capabilities of R. Notice: RHugin is
     NOT on CRAN. Link: <http://rhugin.r-forge.r-project.org/>
+
+
+	`r pkg("pchc")` Bayesian Network Learning with the PCHC and
+    Related Algorithms. Bayesian network learning using the PCHC
+    algorithm. PCHC stands for PC Hill-Climbing, a new hybrid
+    algorithm that uses PC to construct the skeleton of the BN and
+    then applies the Hill-Climbing greedy search.
 
 
 ### BUGS models
