@@ -119,19 +119,21 @@ categories):
     in undirected graphical models. The main target is to uncover
     complicated patterns in multivariate data wherein either continuous
     or discrete variables.
--   `r pkg("bnclassify")`: Learning Discrete Bayesian Network
-    Classifiers from Data. State-of-the art algorithms for learning
-    discrete Bayesian network classifiers from data, including a number
-    of those described in Bielza and Larranaga (2014) with functions for
-    prediction, model evaluation and inspection. The package implements
-    a number of structure-learning algorithms, with both discriminative
-    and generative network scores, and a number of naive Bayes-specific
-    parameter estimation methods, such as the Model Averaged Naïve
-    Bayes. Prediction with complete data is rather fast, allowing for
-    discriminative scores for structure learning with moderately
-    sized-data sets (e.g. the splice data set, with 61 variables and
-    3190 instances in \~100 seconds on my machine). There is a number of
-    utility functionalities, such as cross-validation.
+
+<!-- -   `r pkg("bnclassify")`: Learning Discrete Bayesian Network -->
+<!--     Classifiers from Data. State-of-the art algorithms for learning -->
+<!--     discrete Bayesian network classifiers from data, including a number -->
+<!--     of those described in Bielza and Larranaga (2014) with functions for -->
+<!--     prediction, model evaluation and inspection. The package implements -->
+<!--     a number of structure-learning algorithms, with both discriminative -->
+<!--     and generative network scores, and a number of naive Bayes-specific -->
+<!--     parameter estimation methods, such as the Model Averaged Naïve -->
+<!--     Bayes. Prediction with complete data is rather fast, allowing for -->
+<!--     discriminative scores for structure learning with moderately -->
+<!--     sized-data sets (e.g. the splice data set, with 61 variables and -->
+<!--     3190 instances in \~100 seconds on my machine). There is a number of -->
+<!--     utility functionalities, such as cross-validation. -->
+
 -   `r pkg("bnstruct")`: Bayesian Network Structure Learning
     from Data with Missing Values. Bayesian Network Structure Learning
     from Data with Missing Values. The package implements the
