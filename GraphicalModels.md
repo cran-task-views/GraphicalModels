@@ -120,19 +120,6 @@ categories):
     complicated patterns in multivariate data wherein either continuous
     or discrete variables.
 
-<!-- -   `r pkg("bnclassify")`: Learning Discrete Bayesian Network -->
-<!--     Classifiers from Data. State-of-the art algorithms for learning -->
-<!--     discrete Bayesian network classifiers from data, including a number -->
-<!--     of those described in Bielza and Larranaga (2014) with functions for -->
-<!--     prediction, model evaluation and inspection. The package implements -->
-<!--     a number of structure-learning algorithms, with both discriminative -->
-<!--     and generative network scores, and a number of naive Bayes-specific -->
-<!--     parameter estimation methods, such as the Model Averaged Naïve -->
-<!--     Bayes. Prediction with complete data is rather fast, allowing for -->
-<!--     discriminative scores for structure learning with moderately -->
-<!--     sized-data sets (e.g. the splice data set, with 61 variables and -->
-<!--     3190 instances in \~100 seconds on my machine). There is a number of -->
-<!--     utility functionalities, such as cross-validation. -->
 
 -   `r pkg("bnstruct")`: Bayesian Network Structure Learning
     from Data with Missing Values. Bayesian Network Structure Learning
@@ -168,6 +155,7 @@ categories):
 
 -   `r pkg("huge")`: High-dimensional Undirected Graph
     Estimation.
+
 -   `r pkg("lvnet")`: Latent Variable Network
     Modeling. Estimate, fit and compare Structural Equation Models (SEM)
     and network models (Gaussian Graphical Models; GGM) using OpenMx.
@@ -193,6 +181,7 @@ categories):
     Graph (DAG) via the PC-Algorithm. The equivalence class is
     represented by its (unique) Completed Partially Directed Acyclic
     Graph (CPDAG).
+
 -   `r rforge("qp")`: This package is deprecated and it is
     now only a stub for the newer version called qpgraph available
     through the Bioconductor project. The q-order partial correlation
@@ -202,6 +191,7 @@ categories):
     multivariate normal data coming from a number of random variables p
     larger than the number of multidimensional data points n as in the
     case of, e.g., microarray data.
+
 -   `r bioc("qpgraph")`: q-order partial correlation graphs,
     or qp-graphs for short, are undirected Gaussian graphical Markov
     models that represent q-order partial correlations. They are useful
@@ -210,6 +200,7 @@ categories):
     sample size n as, for instance, in the case of microarray data where
     they can be employed to reverse engineer a molecular regulatory
     network.
+
 -   `r pkg("spectralGraphTopology")`: The package provides
     estimators to learn k-component, bipartite, and k-component
     bipartite graphs from data by imposing spectral constraints on the
@@ -218,6 +209,17 @@ categories):
     graphical models as a prior information, which turn out to play key
     roles in unsupervised machine learning tasks such as community
     detection.
+
+-   `r pkg("JGL")` The Joint Graphical Lasso is a generalized method
+    for estimating Gaussian graphical models/ sparse inverse
+    covariance matrices/ biological networks on multiple classes of
+    data
+	
+-   `r pkg("jewel")` Estimates networks of conditional dependencies
+	(Gaussian graphical models) from multiple classes of data (similar but
+	not exactly, i.e. measurements on different equipment, in different
+	locations or for various sub-types).
+
 
 ### Bayesian Networks/Probabilistic expert systems
 
@@ -238,6 +240,7 @@ categories):
     expert systems (which includes Bayesian networks as a special case).
     Link:
     [doi:10.18637/jss.v046.i10](https://dx.doi.org/doi:10.18637/jss.v046.i10)
+
 -   `r rforge("RHugin")`: The Hugin Decision Engine (HDE) is
     commercial software produced by HUGIN EXPERT A/S for building and
     making inference from Bayesian belief networks. The RHugin package
@@ -252,7 +255,6 @@ categories):
     the package is Hugin users who would like to take advantage of the
     statistical and programmatic capabilities of R. Notice: RHugin is
     NOT on CRAN. Link: <http://rhugin.r-forge.r-project.org/>
-
 
 	`r pkg("pchc")` Bayesian Network Learning with the PCHC and
     Related Algorithms. Bayesian network learning using the PCHC
