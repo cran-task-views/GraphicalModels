@@ -163,8 +163,6 @@ categories):
     can be used between latent variables (latent network modeling; LNM)
     or between residuals (residual network modeling; RNM).
 
--   `r pkg("MXM")`: Feature Selection (Including Multiple Solutions)
-    and Bayesian Networks.
 
 -   `r pkg("networkDynamic")`: Dynamic Extensions for Network
     Objects. Simple interface routines to facilitate the handling of
