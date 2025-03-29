@@ -35,6 +35,13 @@ categories):
 
 ### Representation, manipulation and display of graphs
 
+- `r pkg("sbm")`: A collection of tools and functions to adjust a
+  variety of stochastic blockmodels (SBM). Supports at the moment
+  Simple, Bipartite, 'Multipartite' and Multiplex SBM (undirected or
+  directed with Bernoulli, Poisson or Gaussian emission laws on the
+  edges, and possibly covariate for Simple and Bipartite SBM).
+
+
 -   `r pkg("backbone")`: An implementation of methods for extracting
     an unweighted unipartite graph (i.e. a backbone) from an
     unweighted unipartite graph, a weighted unipartite graph, the
