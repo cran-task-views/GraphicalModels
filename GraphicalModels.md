@@ -214,6 +214,11 @@ categories):
     graphical models as a prior information, which turn out to play key
     roles in unsupervised machine learning tasks such as community
     detection.
+-   `r pkg("sparseSEM")`: The package provides lasso (_l1_) and 
+    elastic net (_l1_/_l2_) penalized Maximum Likelihood Estimator (MLE) for
+    Structural Equation Models (SEM). Those estimators yield sparse SEM 
+    that can be used for inferring network structures and predicting
+    causal effects.
 
 -   `r pkg("JGL")` The Joint Graphical Lasso is a generalized method
     for estimating Gaussian graphical models/ sparse inverse
