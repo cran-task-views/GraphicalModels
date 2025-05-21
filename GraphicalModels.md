@@ -206,14 +206,6 @@ categories):
     they can be employed to reverse engineer a molecular regulatory
     network.
 
--   `r pkg("spectralGraphTopology")`: The package provides
-    estimators to learn k-component, bipartite, and k-component
-    bipartite graphs from data by imposing spectral constraints on the
-    eigenvalues and eigenvectors of the Laplacian and adjacency
-    matrices. Those estimators leverages spectral properties of the
-    graphical models as a prior information, which turn out to play key
-    roles in unsupervised machine learning tasks such as community
-    detection.
 
 -   `r pkg("JGL")` The Joint Graphical Lasso is a generalized method
     for estimating Gaussian graphical models/ sparse inverse
