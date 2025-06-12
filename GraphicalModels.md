@@ -274,11 +274,12 @@ categories):
     (BOA) for MCMC. A menu-driven program and library of functions for
     carrying out convergence diagnostics and statistical and graphical
     analysis of Markov chain Monte Carlo sampling output.
--   `r pkg("BRugs")`: R interface to the OpenBUGS MCMC
-    software. Fully-interactive R interface to the OpenBUGS software for
-    Bayesian analysis using MCMC sampling. Runs natively and stably in
-    32-bit R under Windows. Versions running on Linux and on 64-bit R
-    under Windows are in "beta" status and less efficient.
+<!-- -   `r pkg("BRugs")`: R interface to the OpenBUGS MCMC -->
+<!--     software. Fully-interactive R interface to the OpenBUGS software for -->
+<!--     Bayesian analysis using MCMC sampling. Runs natively and stably in -->
+<!--     32-bit R under Windows. Versions running on Linux and on 64-bit R -->
+<!--     under Windows are in "beta" status and less efficient. -->
+
 -   `r pkg("coda")`: Output analysis and diagnostics
     for MCMC. Output analysis and diagnostics for Markov Chain Monte
     Carlo simulations.
