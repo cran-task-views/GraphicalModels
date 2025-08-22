@@ -160,6 +160,10 @@ categories):
 	normal data (i.e. covariance selection models) Mixed interaction
 	models.
 
+-	`r pkg("gips")`: Find permutation symmetry groups for multivariate
+     Gaussian models. Useful for exploratory data analysis and
+     improved covariance estimation under symmetry constraints.
+
 -   `r pkg("huge")`: High-dimensional Undirected Graph
     Estimation.
 
@@ -305,12 +309,10 @@ categories):
 
 
 ### Links
--   [gR initiative homepage and mailing list](http://www.R-project.org/gR/)
 -   [Bioconductor](http://www.Bioconductor.org/)
 -   [JAGS](http://mcmc-jags.sourceforge.net/)
 -   [OpenBUGS](http://www.openbugs.info/w/)
--   [WinBUGS](http://www.mrc-bsu.cam.ac.uk/software/bugs/)
 -   [Bayes Net Toolbox for MATLAB](https://code.google.com/p/bnt/)
--   [TETRAD](http://www.phil.cmu.edu/projects/tetrad/)
+-   [TETRAD](https://www.cmu.edu/dietrich/philosophy/tetrad/)
 -   [Grappa](http://www.stats.bris.ac.uk/~peter/Grappa/)
 -   [RHugin](http://rhugin.r-forge.r-project.org/)
