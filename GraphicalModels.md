@@ -3,7 +3,6 @@ name: GraphicalModels
 topic: Graphical Models
 maintainer: Soren Hojsgaard
 email: sorenh@math.aau.dk
-version: 2023-04-05
 source: https://github.com/cran-task-views/GraphicalModels/
 ---
 
