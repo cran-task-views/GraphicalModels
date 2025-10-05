@@ -211,10 +211,10 @@ categories):
     network.
 
 
--   `r pkg("JGL")` The Joint Graphical Lasso is a generalized method
-    for estimating Gaussian graphical models/ sparse inverse
-    covariance matrices/ biological networks on multiple classes of
-    data
+<!-- -   `r pkg("JGL")` The Joint Graphical Lasso is a generalized method -->
+<!--     for estimating Gaussian graphical models/ sparse inverse -->
+<!--     covariance matrices/ biological networks on multiple classes of -->
+<!--     data -->
 	
 -   `r pkg("jewel")` Estimates networks of conditional dependencies
 	(Gaussian graphical models) from multiple classes of data (similar but
