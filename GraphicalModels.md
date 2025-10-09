@@ -127,6 +127,7 @@ categories):
     complicated patterns in multivariate data wherein either continuous
     or discrete variables.
 
+-   `r pkg(“bgms”)`: Bayesian variable selection methods using a spike and slab approach. It provides Bayesian variable selection for edge selection and group comparisons in undirected graphical models of multivariate binary and ordinal data.
 
 -   `r pkg("bnstruct")`: Bayesian Network Structure Learning
     from Data with Missing Values. Bayesian Network Structure Learning
